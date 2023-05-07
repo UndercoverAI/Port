@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<Head>
+    <!---FAV ICON-->
+    <Title>Dreamworld</Title>
+</Head>
+<Body>
+
+<h1>Be om et pristilbud:</h1>
+
+<p>Påkrevd felt etterfølges av *.</p>
+
+<form>
+
+<div>
+<label for="type_tjeneste">Type tjeneste*:</label>
+<br>
+<select name="type_tjeneste" id="type_tjeneste">
+<option value="bryllup">Bryllup</option>
+<option value="barn_og_familie">Barn og familie</option>
+<Option value="portrett">Portrett</Option>
+<option value="forlovelse_og_par">Forlovelse og par</option>
+</select>
+</div>
+<br>
+</form>
+
+<form>
+    <div>
+        <label for="ønsket_tid">Ønsket tid* <i>(arbeidstid 12:00-20:00)</i></label>
+        <br>
+        <input type="datetime-local"
+        id="ønsket_tid"
+        name="ønsket_tid">
+</div>
+<br>
+<div>
+    <label for="message">Beskjed</label>
+    <br>
+    <textarea placeholder="Beskjed" name="message" id="message" cols="40" rows="5">Hei, jeg vil gjerne ha et pristilbud</textarea>
+</div>
+<br>
+<div>
+    <button>Send Beskjed</button>
+</div>
+
+</form>
+
+
+  
+</Body>
+</html>
